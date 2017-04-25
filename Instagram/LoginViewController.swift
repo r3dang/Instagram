@@ -43,6 +43,7 @@ class LoginViewController: UIViewController {
                     print("A user signed up")
                 } else {
                     print(error?.localizedDescription)
+                    
                 }
         })
     }
